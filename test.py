@@ -10,8 +10,8 @@ driver = webdriver.Firefox()
 driver.get("https://www.example.com/contact")
 
 # Enter valid data in all the mandatory fields
-driver.find_element_by_name("fullname").send_keys("John Doe")
-driver.find_element_by_name("email").send_keys("johndoe@example.com")
+driver.find_element_by_name("fullname").send_keys("mutshinye nethengwe")
+driver.find_element_by_name("email").send_keys("mutshinye@example.com")
 driver.find_element_by_name("mobile").send_keys("1234567890")
 
 # Submit the form and verify that the form is submitted successfully
